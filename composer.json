@@ -1,16 +1,16 @@
 {
-    "name": "bow/installer",
+    "name": "bowphp/installer",
     "description": "Bow framework CLI installer",
     "keywords": ["bow", "bow installer", "bow framework"],
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
-            "name": "Houssene Dao",
+            "name": "Houssene DAO",
             "email": "dao.houssene@gmail.com"
         },
         {
-            "name": "Hassane Dao",
+            "name": "Hassane DAO",
             "email": "dao.hassane@gmail.com"
         }
     ],
@@ -19,7 +19,7 @@
             "Bow\\Installer\\Console\\": "src/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "ext-zip": "*",
         "guzzlehttp/guzzle": "~6.0",
